@@ -1,0 +1,206 @@
+<!DOCTYPE html><html lang="zh-CN" data-theme="light"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"><title>对于不同类型玩家的世界观设计 | 马潇的BLOG</title><meta name="keywords" content="任务设计"><meta name="author" content="马潇"><meta name="copyright" content="马潇"><meta name="format-detection" content="telephone=no"><meta name="theme-color" content="#ffffff"><meta name="description" content="引言：“游戏任务设计”系列意在通过探究相关任务设计或非任务设计知识，激发游戏任务设计灵感。这次是该系列的第二期“对于不同类型玩家的世界观设计”，演讲者Raylene Deck是Bungie的设计指导，曾经参与过《命运》、《龙腾纪元》、《质量效应》等作品的设计创作。在本次演讲中，Raylene通过玩家动机模型（Gamer Motivation Model）展开，详细分析了如何利用玩家动机去进行世界观">
+<meta property="og:type" content="article">
+<meta property="og:title" content="对于不同类型玩家的世界观设计">
+<meta property="og:url" content="http://xm493233.github.io/Quest2/index.html">
+<meta property="og:site_name" content="马潇的BLOG">
+<meta property="og:description" content="引言：“游戏任务设计”系列意在通过探究相关任务设计或非任务设计知识，激发游戏任务设计灵感。这次是该系列的第二期“对于不同类型玩家的世界观设计”，演讲者Raylene Deck是Bungie的设计指导，曾经参与过《命运》、《龙腾纪元》、《质量效应》等作品的设计创作。在本次演讲中，Raylene通过玩家动机模型（Gamer Motivation Model）展开，详细分析了如何利用玩家动机去进行世界观">
+<meta property="og:locale" content="zh_CN">
+<meta property="og:image" content="http://xm493233.github.io/img/cover8.png">
+<meta property="article:published_time" content="2022-05-24T00:18:30.000Z">
+<meta property="article:modified_time" content="2022-05-24T00:47:47.638Z">
+<meta property="article:author" content="马潇">
+<meta property="article:tag" content="任务设计">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="http://xm493233.github.io/img/cover8.png"><link rel="shortcut icon" href="/img/avatar.png"><link rel="canonical" href="http://xm493233.github.io/Quest2/"><link rel="preconnect" href="//cdn.jsdelivr.net"/><link rel="preconnect" href="//busuanzi.ibruce.info"/><link rel="stylesheet" href="/css/index.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6/css/all.min.css" media="print" onload="this.media='all'"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.css" media="print" onload="this.media='all'"><script>const GLOBAL_CONFIG = { 
+  root: '/',
+  algolia: undefined,
+  localSearch: undefined,
+  translate: undefined,
+  noticeOutdate: undefined,
+  highlight: {"plugin":"highlighjs","highlightCopy":true,"highlightLang":true,"highlightHeightLimit":false},
+  copy: {
+    success: '复制成功',
+    error: '复制错误',
+    noSupport: '浏览器不支持'
+  },
+  relativeDate: {
+    homepage: false,
+    post: false
+  },
+  runtime: '',
+  date_suffix: {
+    just: '刚刚',
+    min: '分钟前',
+    hour: '小时前',
+    day: '天前',
+    month: '个月前'
+  },
+  copyright: undefined,
+  lightbox: 'fancybox',
+  Snackbar: undefined,
+  source: {
+    justifiedGallery: {
+      js: 'https://cdn.jsdelivr.net/npm/flickr-justified-gallery@2/dist/fjGallery.min.js',
+      css: 'https://cdn.jsdelivr.net/npm/flickr-justified-gallery@2/dist/fjGallery.min.css'
+    }
+  },
+  isPhotoFigcaption: false,
+  islazyload: false,
+  isAnchor: false
+}</script><script id="config-diff">var GLOBAL_CONFIG_SITE = {
+  title: '对于不同类型玩家的世界观设计',
+  isPost: true,
+  isHome: false,
+  isHighlightShrink: false,
+  isToc: true,
+  postUpdate: '2022-05-23 20:47:47'
+}</script><noscript><style type="text/css">
+  #nav {
+    opacity: 1
+  }
+  .justified-gallery img {
+    opacity: 1
+  }
+
+  #recent-posts time,
+  #post-meta time {
+    display: inline !important
+  }
+</style></noscript><script>(win=>{
+    win.saveToLocal = {
+      set: function setWithExpiry(key, value, ttl) {
+        if (ttl === 0) return
+        const now = new Date()
+        const expiryDay = ttl * 86400000
+        const item = {
+          value: value,
+          expiry: now.getTime() + expiryDay,
+        }
+        localStorage.setItem(key, JSON.stringify(item))
+      },
+
+      get: function getWithExpiry(key) {
+        const itemStr = localStorage.getItem(key)
+
+        if (!itemStr) {
+          return undefined
+        }
+        const item = JSON.parse(itemStr)
+        const now = new Date()
+
+        if (now.getTime() > item.expiry) {
+          localStorage.removeItem(key)
+          return undefined
+        }
+        return item.value
+      }
+    }
+  
+    win.getScript = url => new Promise((resolve, reject) => {
+      const script = document.createElement('script')
+      script.src = url
+      script.async = true
+      script.onerror = reject
+      script.onload = script.onreadystatechange = function() {
+        const loadState = this.readyState
+        if (loadState && loadState !== 'loaded' && loadState !== 'complete') return
+        script.onload = script.onreadystatechange = null
+        resolve()
+      }
+      document.head.appendChild(script)
+    })
+  
+      win.activateDarkMode = function () {
+        document.documentElement.setAttribute('data-theme', 'dark')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#0d0d0d')
+        }
+      }
+      win.activateLightMode = function () {
+        document.documentElement.setAttribute('data-theme', 'light')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#ffffff')
+        }
+      }
+      const t = saveToLocal.get('theme')
+    
+          if (t === 'dark') activateDarkMode()
+          else if (t === 'light') activateLightMode()
+        
+      const asideStatus = saveToLocal.get('aside-status')
+      if (asideStatus !== undefined) {
+        if (asideStatus === 'hide') {
+          document.documentElement.classList.add('hide-aside')
+        } else {
+          document.documentElement.classList.remove('hide-aside')
+        }
+      }
+    
+    const detectApple = () => {
+      if(/iPad|iPhone|iPod|Macintosh/.test(navigator.userAgent)){
+        document.documentElement.classList.add('apple')
+      }
+    }
+    detectApple()
+    })(window)</script><meta name="generator" content="Hexo 6.2.0"></head><body><div id="sidebar"><div id="menu-mask"></div><div id="sidebar-menus"><div class="avatar-img is-center"><img src="/img/avatar.png" onerror="onerror=null;src='/img/friend_404.gif'" alt="avatar"/></div><div class="sidebar-site-data site-data is-center"><a href="/archives/"><div class="headline">文章</div><div class="length-num">8</div></a><a href="/tags/"><div class="headline">标签</div><div class="length-num">2</div></a><a href="/categories/"><div class="headline">分类</div><div class="length-num">0</div></a></div><hr/><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> 首页</span></a></div><div class="menus_item"><a class="site-page" href="/archives/"><i class="fa-fw fas fa-archive"></i><span> 时间轴</span></a></div><div class="menus_item"><a class="site-page" href="/tags/"><i class="fa-fw fas fa-tags"></i><span> 标签</span></a></div><div class="menus_item"><a class="site-page" href="/categories/"><i class="fa-fw fas fa-folder-open"></i><span> 分类</span></a></div><div class="menus_item"><a class="site-page group" href="javascript:void(0);"><i class="fa-fw fas fa-list"></i><span> 清单</span><i class="fas fa-chevron-down"></i></a><ul class="menus_item_child"><li><a class="site-page child" href="/music/"><i class="fa-fw fas fa-music"></i><span> 音乐</span></a></li><li><a class="site-page child" href="/movies/"><i class="fa-fw fas fa-video"></i><span> 电影</span></a></li></ul></div><div class="menus_item"><a class="site-page" href="/link/"><i class="fa-fw fas fa-link"></i><span> 友链</span></a></div><div class="menus_item"><a class="site-page" href="/about/"><i class="fa-fw fas fa-heart"></i><span> 关于</span></a></div></div></div></div><div class="post" id="body-wrap"><header class="post-bg" id="page-header" style="background-image: url('/img/cover8.png')"><nav id="nav"><span id="blog_name"><a id="site-name" href="/">马潇的BLOG</a></span><div id="menus"><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> 首页</span></a></div><div class="menus_item"><a class="site-page" href="/archives/"><i class="fa-fw fas fa-archive"></i><span> 时间轴</span></a></div><div class="menus_item"><a class="site-page" href="/tags/"><i class="fa-fw fas fa-tags"></i><span> 标签</span></a></div><div class="menus_item"><a class="site-page" href="/categories/"><i class="fa-fw fas fa-folder-open"></i><span> 分类</span></a></div><div class="menus_item"><a class="site-page group" href="javascript:void(0);"><i class="fa-fw fas fa-list"></i><span> 清单</span><i class="fas fa-chevron-down"></i></a><ul class="menus_item_child"><li><a class="site-page child" href="/music/"><i class="fa-fw fas fa-music"></i><span> 音乐</span></a></li><li><a class="site-page child" href="/movies/"><i class="fa-fw fas fa-video"></i><span> 电影</span></a></li></ul></div><div class="menus_item"><a class="site-page" href="/link/"><i class="fa-fw fas fa-link"></i><span> 友链</span></a></div><div class="menus_item"><a class="site-page" href="/about/"><i class="fa-fw fas fa-heart"></i><span> 关于</span></a></div></div><div id="toggle-menu"><a class="site-page"><i class="fas fa-bars fa-fw"></i></a></div></div></nav><div id="post-info"><h1 class="post-title">对于不同类型玩家的世界观设计</h1><div id="post-meta"><div class="meta-firstline"><span class="post-meta-date"><i class="far fa-calendar-alt fa-fw post-meta-icon"></i><span class="post-meta-label">发表于</span><time class="post-meta-date-created" datetime="2022-05-24T00:18:30.000Z" title="发表于 2022-05-23 20:18:30">2022-05-23</time><span class="post-meta-separator">|</span><i class="fas fa-history fa-fw post-meta-icon"></i><span class="post-meta-label">更新于</span><time class="post-meta-date-updated" datetime="2022-05-24T00:47:47.638Z" title="更新于 2022-05-23 20:47:47">2022-05-23</time></span></div><div class="meta-secondline"><span class="post-meta-separator">|</span><span class="post-meta-pv-cv" id="" data-flag-title="对于不同类型玩家的世界观设计"><i class="far fa-eye fa-fw post-meta-icon"></i><span class="post-meta-label">阅读量:</span><span id="busuanzi_value_page_pv"></span></span></div></div></div></header><main class="layout" id="content-inner"><div id="post"><article class="post-content" id="article-container"><p><strong>引言</strong>：“游戏任务设计”系列意在通过探究相关任务设计或非任务设计知识，激发游戏任务设计灵感。这次是该系列的第二期“对于不同类型玩家的世界观设计”，演讲者Raylene Deck是Bungie的设计指导，曾经参与过《命运》、《龙腾纪元》、《质量效应》等作品的设计创作。在本次演讲中，Raylene通过<strong>玩家动机模型（Gamer Motivation Model）</strong>展开，详细分析了如何利用玩家动机去进行世界观的塑造，令人影响深刻。笔者本人也是一名游戏科学研究生，会以Raylene的讲座为基础，探寻和分享更多玩家动机对任务设计、游戏设计的影响。</p>
+<hr>
+<h4 id="1-什么是世界观设计？"><a href="#1-什么是世界观设计？" class="headerlink" title="1. 什么是世界观设计？"></a>1. 什么是世界观设计？</h4><p>Raylene在一开始便提到世界观设计的趣味性：很少有职业能够提供从业者成为神(God)，但是世界观设计师可能是最贴切的几个职业之一。相信不少人从事游戏设计的初衷也正是如此，比起传统的媒体创作，游戏的交互性赋予了游戏本身强烈的沉浸感，我们分享的不单单是一段体验，而是一个鲜活的世界。而后Raylene提到了世界观设计中重要的组成部分：关卡、活动、任务、世界系统等，各个部分息息相关。</p>
+<h4 id="2-玩家动机模型（Gamer-Motivation-Model）"><a href="#2-玩家动机模型（Gamer-Motivation-Model）" class="headerlink" title="2. 玩家动机模型（Gamer Motivation Model）"></a>2. 玩家动机模型（Gamer Motivation Model）</h4><p>Raylene提到理解玩家动机对于创造一个吸引人的世界尤为重要。随后，Raylene提到了玩家动机模型，即Gamer Motivation Model。针对不同的游戏受众，设计不同类型的体验，进而激发玩家的游戏沉浸感。不过在此之前，笔者想先简单谈论一下何为动机以及动机的几种定义。这里讲应用Celia Hodent 在《The Gamer’s Brain: How Neuroscience and UX Can Impact Video Game Design》关于动机(Motivation)的定义。</p>
+<p>首先，何为动机？动机定义为：引导个体行为从而满足需求&#x2F;欲望的一种力量。如果没有动机，就不会产生任何行为。心理学家Palmiter就在实验中发现：对于不会自主产生多巴胺的小白鼠来说，他们会最终饿死因为他们不会去寻食(没有进食冲动)。尽管心理学家关于动机的研究还处于阶段，也没有自成一体的理论去归纳所有动机，但是心理学家普遍将动机归类为以下四个种类：</p>
+<ul>
+<li>内隐动机和生理驱动(Implicit motivation and Biological drives);</li>
+<li>环境塑造动机和习得性驱动(Environmental-shaped motivation and learned drives);</li>
+<li>内在动机和认知需求(Intrinsic motivation and cognitive needs);</li>
+<li>人格和个体性化需求(Personality and individual needs);</li>
+</ul>
+<p>对于游戏设计者来说，更应该关注的是后三者。</p>
+<p><em>环境塑造动机和习得性驱动：</em></p>
+<p>简单来说，就是通过奖励或者惩罚等外部环境因素影响所形成的行为动机。游戏中会动过利用这种动机促使玩家完成一些玩家本不愿意做的事情：如每日任务、日常登陆等。</p>
+<p><em>内在动机和认知需求：</em></p>
+<p>在没有外部奖励或者惩罚的情况下，个体自发地想去完成某事的一种动机。关于内在动机（intrinsic motivation）的研究甚多，如自决理论（Self-determination theory）、心流理论（Flow theory）等，本文不进行论述。</p>
+<p><em>人格和个体性化需求：</em></p>
+<p>尽管我们的绝大多数行为能够被心理现象所解释，但是个体差异仍然存在，而且对于我们关于动机的认知具有深刻影响。最为人熟知的便是五大人格理论（OCEAN），在本次演讲中，Raylene提到的是另外一种理论——玩家动机模型。</p>
+
+
+<p>如图所示，玩家动机模型是通过对140000名玩家行为数据进行因子分析（factor analysis）后，聚类出的6大玩家动机，分别是：行动（Action）、社交（Social）、精通（Mastery）、成就（Achievement）、沉浸（Immersion）和创造（Creativity）。</p>
+<img src="/Quest2/smodel.jpg" class title="smodel">
+
+<p>紧接着Raylene将6类玩家动机分为三大类，分别是：</p>
+<ul>
+<li>沉浸（Immersion）和创造（Creativity）：使得玩家在小世界（地图）也能感受到宏大的世界框架</li>
+<li>行动（Action）和社交（Social）：创造良性、友好的共享世界</li>
+<li>精通（Mastery）和成就（Achievement）：一个给予玩家成就感&#x2F;责任感的世界</li>
+</ul>
+<h4 id="3-沉浸（Immersion）和创造（Creativity）"><a href="#3-沉浸（Immersion）和创造（Creativity）" class="headerlink" title="3. 沉浸（Immersion）和创造（Creativity）"></a>3. 沉浸（Immersion）和创造（Creativity）</h4><p>Raylene以《龙腾世纪:审判(Dragon Age:Inquisition)》为例，阐述了沉浸（Immersion）和创造（Creativity）对于世界构造的影响。在游戏龙腾世纪发售后，玩家反应了游戏内丰富的内容和达200多条的支线任务。其中，最著名的一个例子是Hinterlands（腹地）的地区设计，这也是游戏中解锁的第一个开放世界地区，拥有最大的地图规模、最多的支线任务。玩家大多会在这个地区花费20多个小时进行探索，但这并不是设计团队的本意。许多玩家反应Hinterlands（腹地）中的交互和任务不具备意义，玩家也不明白哪一个任务值得完成。因此，一些游戏中的开放世界设计与玩家游玩游戏的原因（丰富的故事和角色）相违背。</p>
+<p><em>这里作者相违背的意思是：玩家因为前期开放世界冗长，放弃游戏因而无法体验后续故事等。</em></p>
+<p>而后，Raylene以其他游戏中开放世界设计为例，阐述了如何解决该问题。首先，Raylene提到了《龙腾世纪:审判》中Crestwood支线任务设计。任务设计如下：</p>
+<img src="/Quest2/quest.jpg" class title="quest">
+
+<p>在任务中，玩家被告知前往一片风暴聚集的地区Crestwood，当玩家抵达后，玩家会发现不死族正在攻击附近的村庄。在村庄里，通过询问村长得知，不死族来自于old crestwood，多年之前就已经被洪水淹没。为了解决不死族问题，玩家需要通过控制大坝从而倾泻湖泊。当玩家排干湖泊的水后，玩家前往old crestwood的洞穴中击杀了Boss从而解决了该地的诅咒。当玩家返回村庄通知村长时，村长已然离开并留下字条解释道：是村长率先决定用洪水淹没old crestwood地区的，当时old crestwood的村民换了传染病，为了防止病情扩散，村长决定淹没村子。随后，玩家会接到后续任务：找寻村长。</p>
+<p>接着，Raylene提到该任务设计中值得反思的几点：</p>
+<ul>
+<li>首先，该任务的叙事通俗易懂。在开放世界中，玩家会面临众多主线&#x2F;支线任务，并且玩家会以任意顺序完成任务。因此，如果玩家面临过多的选择或是复杂的故事，玩家会失去兴趣。</li>
+<li>其次，该支线任务涉及了整个Crestwood地区，是成为该地区的主要问题，玩家需要揭开过去的谜团从而拯救村庄。当玩家完成该系列任务后，玩家会感受到他们亲自为这个地区划上句号。如果一个地区内有过多的任务或是每个任务都拥有不同的主题，那么玩家会对自己的所作所为感到迷茫。游戏任务需要让玩家感受到他们的付出是有价值的。</li>
+<li>最后，该支线任务最终回归主线任务&#x2F;剧情。当玩家找到村长后，玩家可以使用游戏机制去决定村长的命运。因此，这个支线任务和游戏主线&#x2F;核心机制具有联系。</li>
+</ul>
+<p>Raylene而后提到了开放世界游戏中的关卡设计。在游戏测试中，玩家反馈道在开放世界中，如果周围的环境十分相似时，他们不知道走哪一条道路是有意义的。作为改进，Raylene团队在设计地标时，使用了特殊的光影&#x2F;形状从而确保玩家能够观察到该地标的特殊之处，使得玩家产生接近该地标的目的。因此，在设计开放世界游戏时，有时不必加入过多的游戏内容，而应该：</p>
+<ul>
+<li>把现有的内容以更有意义的方式呈现给玩家。</li>
+<li>创造适合融入世界的游戏内容。</li>
+</ul>
+<p>最后，Raylene提到在开放世界中，时刻保持玩家的游戏投入是重中之重，因此创作少量但高质量的任务也是不错的想法。</p>
+<h4 id="4-行动（Action）和社交（Social）"><a href="#4-行动（Action）和社交（Social）" class="headerlink" title="4. 行动（Action）和社交（Social）"></a>4. 行动（Action）和社交（Social）</h4><p>Raylene在这一部分提到了多人开放世界游戏设计。较之于单人开放世界，多人开放世界设计往往会更为复杂，因为一个玩家的行为会影响另一个玩家的游戏体验。如果一名玩家想要成为游戏中的英雄，那么意味着其他玩家也会抱有类似的想法。因此，设计师需要使多人世界在保持个性化（personal）的同时，也要让玩家和玩家的朋友们感受到他们正在一起完成某一项使命。</p>
+<p>因此，许多相似的设计技巧也可以用在多人世界上，但是设计师需要注意在多人游戏中，游戏叙事绝不能负面地影响游戏玩法。接着，Raylene以《命运2》为例，讨论了多人游戏世界的设计要领。原先在《命运1》中，玩家完成主线任务后，可以参与到多步骤的长线任务和活动中（数天甚至数周）。尽管任务能够有效地给玩家提供长期目标，但是对于多人游戏则不尽相同，因为很大概率玩家们会因为任务进度不同导致不能一起完成任务。</p>
+<p>如果游戏设计的目的在于增强游戏的社交性，那么游戏任务应该维持在10分钟以内，从而使得半路加入的玩家不会感受到他们错失了很多游戏剧情。在游戏测试中，玩家们反映到他们根本不能理解他们正在做以及他们为什么做这些任务。当玩家结伴做任务时，他们很轻易地在叙事上被分散注意力，因为社交永远是重中之重。对此的结局办法是：减少并且简化叙事。具体来说，在每一个活动&#x2F;任务开始时，玩家会被告知将要做什么以及为什么要去做。因此玩家仅需在游戏开始时集中注意力，如果他们在随后的任务中遗漏了某些对话&#x2F;剧情，也无伤大雅，因为玩家们至少明白他们在做什么。</p>
+<p>在关卡设计上，我们应该将冒险起始的地点设置在开放世界地图中不太会出现战斗的地区，从而使得玩家更多时间去聆听对话而不被打扰。Raylene而后总结道多人游戏设计中以下几点：</p>
+<ul>
+<li>玩家倾向于一起游玩（即社交动机）、游戏叙事应该保持简洁</li>
+<li>玩家的故事大于设计师设想的故事，即多人游戏中属于玩家和朋友们的特定的故事</li>
+</ul>
+<p>Raylene接着提到在《命运2》中的公开活动设计，活动设计的目的是把陌生人汇聚起来。每一个公开活动是一个少于5分钟的战斗体验在多人游戏中。在Bungie中，这被称做“公共气泡（public bubbles）”。在一个公共气汽泡中，玩家会被自动地匹配到随机其他玩家，直至该玩家离开气泡为止。在设计公共气泡时，最重要的设计目标就是使得玩家很高兴见到彼此，或是至少不畏惧见到其他玩家。因此，此处的设计理念为建立一个环境使得陌生人不会负面地影响到其他玩家的游戏体验，而是使玩家们感受到互相帮助。接下来，我们看几个例子。</p>
+<p><strong>最好获得帮助的办法就是表达意图。</strong>因此在《命运2》中，公开事件会在开始前，在地图中被提前标注出来。因此，玩家可以计划好时间并且该标注可以提供一个聚焦点让陌生玩家们汇聚起来。公开事件的地点出会放置一杆旗帜，玩家们可以通过接触获得加成，也会在HUD中显示公开事件开启的倒计时。此处的设计理念是，当一名玩家接触旗帜后，附近的其他玩家会了解到该玩家想要参与公开事件。</p>
+<p><strong>而后是停机时间（Downtime）的重要性（此处的停机时间应指除去系统内玩法外，玩家们之间交流、交互的时间）。</strong>在设计多人游戏中，应该设计部分地点使得玩家获得停机时间，在停机时间内玩家可以发表情等交互。Raylene说一位在Bungie的设计总监提到，如果不在游戏中建立停机时间地点，那么玩家就会在游戏的其他地点去索取这种停机时间。</p>
+<p><strong>此外，Raylene提到游戏困难度是设计多人游戏的另一个需要考虑的因素。</strong>如果一个公开事件太难并且周围没有可以合作的其他玩家，玩家不回去参加该事件；同理，如果事件太简单的话，玩家完全可以单独完成，不需要其他玩家的帮助。因此，设计师需要考虑游戏难度以及玩家之间的信任程度。正如Raylene前文所提到的公共气泡，作为一个低信任区域，玩家们随机匹配到一起去完成一个短线任务。因此，玩家们没有足够的时间来建立关系，如果游戏难度设置不当，那么玩家们不会去责怪自己（的失误），而是会去责怪他人的失误。</p>
+<hr>
+<p>至此，Raylene总结了玩家动机对于游戏设计的一些启发。讲座随后的10分钟探寻的是通过精通（Mastery）和成就（Achievement）设计一个给予玩家使命感&#x2F;责任感的世界，不过笔者觉得该部分参考意义不大，有兴趣的读者可以观看，如有相关问题，欢迎提问。在演讲最后，Raylene提到世界设计仍然是一个非常年轻的学科，需要游戏设计者的补充与完善。不过对于游戏设计而言，本片讲座的目的在于给予设计师一定的设计思路和理念，而非诸如“我这样设计，因为我觉得这很酷&#x2F;有趣”此类设计想法。本片讲座在很多地方具有很深的挖掘性，例如第三部分任务设计中使命感对于玩家游戏带入的意义，第四部分多人游戏设计对单身游戏设计的启发等。有兴趣的读者可以查阅相关资料，或是留言讨论:)</p>
+</article><div class="post-copyright"><div class="post-copyright__author"><span class="post-copyright-meta">文章作者: </span><span class="post-copyright-info"><a href="http://xm493233.github.io">马潇</a></span></div><div class="post-copyright__type"><span class="post-copyright-meta">文章链接: </span><span class="post-copyright-info"><a href="http://xm493233.github.io/Quest2/">http://xm493233.github.io/Quest2/</a></span></div><div class="post-copyright__notice"><span class="post-copyright-meta">版权声明: </span><span class="post-copyright-info">本博客所有文章除特别声明外，均采用 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank">CC BY-NC-SA 4.0</a> 许可协议。转载请注明来自 <a href="http://xm493233.github.io" target="_blank">马潇的BLOG</a>！</span></div></div><div class="tag_share"><div class="post-meta__tag-list"><a class="post-meta__tags" href="/tags/%E4%BB%BB%E5%8A%A1%E8%AE%BE%E8%AE%A1/">任务设计</a></div><div class="post_share"><div class="social-share" data-image="/img/cover8.png" data-sites="facebook,twitter,wechat,weibo,qq"></div><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/social-share.js/dist/css/share.min.css" media="print" onload="this.media='all'"><script src="https://cdn.jsdelivr.net/gh/overtrue/share.js@master/dist/js/social-share.min.js" defer></script></div></div><nav class="pagination-post" id="pagination"><div class="next-post pull-full"><a href="/Quest1/"><img class="next-cover" src="/img/cover7.png" onerror="onerror=null;src='/img/404.jpg'" alt="cover of next post"><div class="pagination-info"><div class="label">下一篇</div><div class="next_info">为什么众多MMO依赖于重复任务？[搬运/烤熟]</div></div></a></div></nav><div class="relatedPosts"><div class="headline"><i class="fas fa-thumbs-up fa-fw"></i><span>相关推荐</span></div><div class="relatedPosts-list"><div><a href="/Quest1/" title="为什么众多MMO依赖于重复任务？[搬运&#x2F;烤熟]"><img class="cover" src="/img/cover7.png" alt="cover"><div class="content is-center"><div class="date"><i class="far fa-calendar-alt fa-fw"></i> 2022-05-21</div><div class="title">为什么众多MMO依赖于重复任务？[搬运&#x2F;烤熟]</div></div></a></div></div></div></div><div class="aside-content" id="aside-content"><div class="card-widget card-info"><div class="is-center"><div class="avatar-img"><img src="/img/avatar.png" onerror="this.onerror=null;this.src='/img/friend_404.gif'" alt="avatar"/></div><div class="author-info__name">马潇</div><div class="author-info__description"></div></div><div class="card-info-data site-data is-center"><a href="/archives/"><div class="headline">文章</div><div class="length-num">8</div></a><a href="/tags/"><div class="headline">标签</div><div class="length-num">2</div></a><a href="/categories/"><div class="headline">分类</div><div class="length-num">0</div></a></div><a id="card-info-btn" target="_blank" rel="noopener" href="https://github.com/xxxxxx"><i class="fab fa-github"></i><span>Follow Me</span></a><div class="card-info-social-icons is-center"><a class="social-icon" href="https://github.com/xm493233" target="_blank" title="Github"><i class="fab fa-github"></i></a><a class="social-icon" href="mailto:ma.xiao2@northeastern.edu" target="_blank" title="Email"><i class="fas fa-envelope"></i></a></div></div><div class="card-widget card-announcement"><div class="item-headline"><i class="fas fa-bullhorn fa-shake"></i><span>公告</span></div><div class="announcement_content">This is my Blog</div></div><div class="sticky_layout"><div class="card-widget" id="card-toc"><div class="item-headline"><i class="fas fa-stream"></i><span>目录</span><span class="toc-percentage"></span></div><div class="toc-content"><ol class="toc"><li class="toc-item toc-level-4"><a class="toc-link" href="#1-%E4%BB%80%E4%B9%88%E6%98%AF%E4%B8%96%E7%95%8C%E8%A7%82%E8%AE%BE%E8%AE%A1%EF%BC%9F"><span class="toc-number">1.</span> <span class="toc-text">1. 什么是世界观设计？</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#2-%E7%8E%A9%E5%AE%B6%E5%8A%A8%E6%9C%BA%E6%A8%A1%E5%9E%8B%EF%BC%88Gamer-Motivation-Model%EF%BC%89"><span class="toc-number">2.</span> <span class="toc-text">2. 玩家动机模型（Gamer Motivation Model）</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#3-%E6%B2%89%E6%B5%B8%EF%BC%88Immersion%EF%BC%89%E5%92%8C%E5%88%9B%E9%80%A0%EF%BC%88Creativity%EF%BC%89"><span class="toc-number">3.</span> <span class="toc-text">3. 沉浸（Immersion）和创造（Creativity）</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#4-%E8%A1%8C%E5%8A%A8%EF%BC%88Action%EF%BC%89%E5%92%8C%E7%A4%BE%E4%BA%A4%EF%BC%88Social%EF%BC%89"><span class="toc-number">4.</span> <span class="toc-text">4. 行动（Action）和社交（Social）</span></a></li></ol></div></div><div class="card-widget card-recent-post"><div class="item-headline"><i class="fas fa-history"></i><span>最新文章</span></div><div class="aside-list"><div class="aside-list-item"><a class="thumbnail" href="/Quest2/" title="对于不同类型玩家的世界观设计"><img src="/img/cover8.png" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="对于不同类型玩家的世界观设计"/></a><div class="content"><a class="title" href="/Quest2/" title="对于不同类型玩家的世界观设计">对于不同类型玩家的世界观设计</a><time datetime="2022-05-24T00:18:30.000Z" title="发表于 2022-05-23 20:18:30">2022-05-23</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/Quest1/" title="为什么众多MMO依赖于重复任务？[搬运/烤熟]"><img src="/img/cover7.png" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="为什么众多MMO依赖于重复任务？[搬运/烤熟]"/></a><div class="content"><a class="title" href="/Quest1/" title="为什么众多MMO依赖于重复任务？[搬运/烤熟]">为什么众多MMO依赖于重复任务？[搬运/烤熟]</a><time datetime="2022-05-21T20:47:22.000Z" title="发表于 2022-05-21 16:47:22">2022-05-21</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/Chapter5/" title="第四章：世界"><img src="/img/cover6.png" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="第四章：世界"/></a><div class="content"><a class="title" href="/Chapter5/" title="第四章：世界">第四章：世界</a><time datetime="2022-05-21T20:31:56.000Z" title="发表于 2022-05-21 16:31:56">2022-05-21</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/Chapter4/" title="第三章：角色的定位（下）"><img src="/img/cover5.png" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="第三章：角色的定位（下）"/></a><div class="content"><a class="title" href="/Chapter4/" title="第三章：角色的定位（下）">第三章：角色的定位（下）</a><time datetime="2022-05-21T20:19:45.000Z" title="发表于 2022-05-21 16:19:45">2022-05-21</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/Chapter3/" title="第三章：角色的定位（上）"><img src="/img/cover4.png" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="第三章：角色的定位（上）"/></a><div class="content"><a class="title" href="/Chapter3/" title="第三章：角色的定位（上）">第三章：角色的定位（上）</a><time datetime="2022-05-21T20:05:17.000Z" title="发表于 2022-05-21 16:05:17">2022-05-21</time></div></div></div></div></div></div></main><footer id="footer"><div id="footer-wrap"><div class="copyright">&copy;2020 - 2022 By 马潇</div><div class="framework-info"><span>框架 </span><a target="_blank" rel="noopener" href="https://hexo.io">Hexo</a><span class="footer-separator">|</span><span>主题 </span><a target="_blank" rel="noopener" href="https://github.com/jerryc127/hexo-theme-butterfly">Butterfly</a></div></div></footer></div><div id="rightside"><div id="rightside-config-hide"><button id="readmode" type="button" title="阅读模式"><i class="fas fa-book-open"></i></button><button id="darkmode" type="button" title="浅色和深色模式转换"><i class="fas fa-adjust"></i></button><button id="hide-aside-btn" type="button" title="单栏和双栏切换"><i class="fas fa-arrows-alt-h"></i></button></div><div id="rightside-config-show"><button id="rightside_config" type="button" title="设置"><i class="fas fa-cog fa-spin"></i></button><button class="close" id="mobile-toc-button" type="button" title="目录"><i class="fas fa-list-ul"></i></button><button id="go-up" type="button" title="回到顶部"><i class="fas fa-arrow-up"></i></button></div></div><div><script src="/js/utils.js"></script><script src="/js/main.js"></script><script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.umd.js"></script><div class="js-pjax"></div><script async data-pjax src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script></div></body></html>
